@@ -1,0 +1,44 @@
+header {
+
+    nav {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        color: white;
+        padding: 1rem 1rem 0rem 1rem;
+
+        a {
+            margin-left: 3rem;
+        }
+
+        .active {
+            color: black;
+            background-color: white;
+            border-radius: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 6px;
+            font-weight: 700;
+            padding-top: 3px;
+        }
+
+        div {
+            display: flex;
+            margin-right: 1rem;
+            align-items: center;
+
+            svg {
+                margin-top: 4px;
+            }
+
+            a {
+                margin-left: 2.5rem;
+                font-weight: 700;
+                color: black;
+                border-radius: 9px;
+            }
+        }
+    }
+}

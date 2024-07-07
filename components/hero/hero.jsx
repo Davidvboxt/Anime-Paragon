@@ -8,8 +8,8 @@ export default function Test() {
 
 
   return (
-    <section className='section---hero'>
+    <>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-    </section>
+    </>
   )
 }

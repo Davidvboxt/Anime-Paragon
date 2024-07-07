@@ -1,7 +1,9 @@
-import "../styles/globals.css";
-import "../styles/base.css";
-import "../styles/embla.css";
-import "../styles/sandbox.css";
+// CSS
+import "../styles/globals.scss";
+import "../styles/hero.scss";
+import "../styles/header.scss";
+
+
 
 function App({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-dark: #1A1A1A;
+    --color-grey: #D7D7D7;
+
+    --border-radius-primary: 38px;
+
+    --padding-default: 1rem;
+}
+
