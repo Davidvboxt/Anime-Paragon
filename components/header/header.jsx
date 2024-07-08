@@ -4,13 +4,13 @@ const header = () => {
     return (
         <header>
             <nav className="z-[99] relative">
-                <a href="/">Anime Paragon</a>
+                <a href="/">Logo</a>
                 <ul className='flex justify-center'>
-                    <li><a className="m-7 p-1" href='/'>Series</a></li>
-                    <li><a className="m-7 p-1" href='/'>Movies</a></li>
-                    <li><a className="m-7 p-1 active" href='/'>Home</a></li>
-                    <li><a className="m-7 p-1" href='/'>My List</a></li>
-                    <li><a className="m-7 p-1" href='/'>News</a></li>
+                    <li><a className="m-8" href='/'>Series</a></li>
+                    <li><a className="m-8" href='/'>Movies</a></li>
+                    <li><a className="m-8" href='/'>Home</a></li>
+                    <li><a className="m-8" href='/'>My List</a></li>
+                    <li><a className="m-8" href='/'>News</a></li>
                 </ul>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">

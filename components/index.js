@@ -2,9 +2,8 @@
 export { default as Header } from "./header/header";
 export { default as Hero } from "./hero/hero";
 export { default as Onepiece } from "./hero/onepiece/onepiece";
-export { default as Vinlandsaga } from "./hero/vinlandsaga/vinlandsaga";
+export { default as Attackontitan } from "./hero/attackontitan/attackontitan";
 export { default as Demonslayer } from "./hero/demonslayer/demonslayer";
-
 
 // IMAGES ONE PIECE
 export { default as ImgOnepiece } from "./assets/onepiece.jpg";
@@ -21,6 +20,10 @@ export { default as ImgDemonslayer } from "./assets/demonslayer.jpg";
 
 // IMAGES VINLAND SAGA
 export { default as ImgVinlandgaga } from "./assets/vinlandsaga.jpg";
+
+// IMAGES ATTACK ON TITAN
+export { default as ImgAttackontitan } from "./assets/attackontitan.jpg";
+export { default as ImgAttackontitanPlay } from "./assets/attackontitan-play.png";
 
 // SVG
 export { default as Avatar1 } from "./svg/avatar-1";

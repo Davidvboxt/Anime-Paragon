@@ -1,26 +1,35 @@
 /* HERO */
-.embla {
-  margin-top: -55px;
-  height: 48rem;
+.section__hero {
 
-  article {
+  .slide__background {
+    background-size: cover;
     height: 100%;
     flex: 0 0 100%;
+    min-width: 0;
+    display: flex;
   }
 
-  .slide__1 {
-    background-image: url('../components/assets/onepiece-1.jpg');
-    object-fit: cover;
+  .onepiece {
+    background-image: url('../components/assets/backgroundheader.jpg');
   }
 
-  .slide__2 {
-    background-image: url('../components/assets/vinlandsaga.jpg');
-    object-fit: cover;
+  .attackontitan {
+    background-image: url('../components/assets/attackontitan-background.jpg');
   }
 
-  .slide__3 {
-    background-image: url('../components/assets/demonslayer.jpg');
-    object-fit: cover;
+  .demonslayer {
+    background-image: url('../components/assets/backgroundheader.jpg');
+  }
+
+  .slide {
+    height: 45rem;
+    width: 76rem;
+    margin: auto;
+    padding-bottom: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 2000px;
+    padding-top: 6rem;
   }
 
   h1 {
@@ -46,26 +55,22 @@
     width: 100%;
   }
 
+
+
   .embla__container {
-    overflow: hidden;
     display: flex;
     height: 100%;
   }
 
+  .embla__slide {}
 
   .embla__viewport {
     height: 100%;
+    overflow: hidden;
   }
 
   .embla__slide {
-    height: 40rem;
-    width: 76rem;
-    margin: auto;
-    padding-bottom: 1.6rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    overflow: hidden;
-    max-width: 2000px;
+    height: 100%;
     display: grid;
     grid-template-rows: minmax(146px, auto) 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -193,4 +198,15 @@
   .embla__button:first-child {
     margin-right: 15px;
   }
+
+  .slide__1 {}
+
+  .slide__2 {
+
+    h1 {
+      font-size: 5.3rem;
+    }
+  }
+
+  .slide__3 {}
 }
