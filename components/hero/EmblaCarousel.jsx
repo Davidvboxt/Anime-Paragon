@@ -1,4 +1,4 @@
-import { Attackontitan, Demonslayer, Onepiece } from '..'
+import { Attackontitan, Jujutsukaisen, Onepiece } from '..'
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Fade from 'embla-carousel-fade'
@@ -54,10 +54,10 @@ const EmblaCarousel = (props) => {
               </div>
             </div>
           </div>
-          <div className='slide__background demonslayer'>
+          <div className='slide__background jujutsukaisen'>
             <div className='slide'>
               <div className="embla__slide slide__3">
-                <Demonslayer />
+                <Jujutsukaisen />
                 <div className="embla__controls block__6">
                   <div className="embla__buttons">
                     <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />

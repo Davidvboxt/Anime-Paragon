@@ -1,4 +1,4 @@
-import { ImgAttackontitan, ImgAttackontitanPlay, SvgImdb, SvgAge14, SvgArrow1 } from '../..'
+import { ImgAttackontitan, ImgAttackontitanPlay, SvgImdb, SvgAge18, SvgArrow1 } from '../..'
 
 function onepiece() {
     return (
@@ -12,7 +12,7 @@ function onepiece() {
         <div className='block__3'>
             <div>
                 <div className='info'>
-                    <span><SvgAge14/></span>
+                    <span><SvgAge18/></span>
                     <span><SvgImdb/>4.7</span>
                     <span>Sub | Dub</span>
                     <span>Thriller</span>

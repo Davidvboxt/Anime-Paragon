@@ -10,15 +10,15 @@
   }
 
   .onepiece {
-    background-image: url('../components/assets/backgroundheader.jpg');
+    background-image: url('../components/assets/onepiece-background.jpg');
   }
 
   .attackontitan {
     background-image: url('../components/assets/attackontitan-background.jpg');
   }
 
-  .demonslayer {
-    background-image: url('../components/assets/backgroundheader.jpg');
+  .jujutsukaisen {
+    background-image: url('../components/assets/jujutsukaisen-background.jpg');
   }
 
   .slide {
@@ -33,7 +33,7 @@
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 5.3rem;
     text-transform: uppercase;
     color: white;
     font-weight: 900;
@@ -62,8 +62,6 @@
     height: 100%;
   }
 
-  .embla__slide {}
-
   .embla__viewport {
     height: 100%;
     overflow: hidden;
@@ -72,7 +70,7 @@
   .embla__slide {
     height: 100%;
     display: grid;
-    grid-template-rows: minmax(146px, auto) 1fr 1fr;
+    grid-template-rows: minmax(135px, auto) 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(328px, max-content);
     grid-auto-columns: 1fr;
