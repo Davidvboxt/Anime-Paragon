@@ -1,4 +1,4 @@
-import {  ImgJujutsukaisen, ImgJujutsukaisenPlay, SvgImdb, SvgAge18, SvgArrow1 } from '../..'
+import { ImgJujutsukaisen, ImgJujutsukaisenPlay, SvgImdb, SvgAge18, SvgArrow1 } from '../..'
 
 function jujutsukaisen() {
     return (
