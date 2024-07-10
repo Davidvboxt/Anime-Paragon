@@ -12,11 +12,8 @@ export { default as ImgOnepiece1 } from "./assets/onepiece-1.jpg";
 export { default as ImgOnepiece2 } from "./assets/onepiece-2.jpg";
 export { default as ImgOnepiece3 } from "./assets/onepiece-3.jpg";
 
-// IMAGES BLUE LOCK
-export { default as ImgBluelock } from "./assets/bluelock.webp";
-
 // IMAGES JUJUTSU KAISEN
-export { default as ImgJujutsukaisen } from "./assets/jujutsukaisen.jpg";
+export { default as ImgJujutsukaisen } from "./assets/jujutsukaisen.png";
 export { default as ImgJujutsukaisenPlay } from "./assets/jujutsukaisen-play.png";
 
 // IMAGES ATTACK ON TITAN
