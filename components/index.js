@@ -5,6 +5,10 @@ export { default as Onepiece } from "./hero/onepiece/onepiece";
 export { default as Attackontitan } from "./hero/attackontitan/attackontitan";
 export { default as Jujutsukaisen } from "./hero/jujutsukaisen/jujutsukaisen";
 
+// API DATA
+export { default as Categories } from "./categories/categories";
+export { default as Popular } from "./popular/popular";
+
 // IMAGES ONE PIECE
 export { default as ImgOnepiece } from "./assets/onepiece.jpg";
 export { default as ImgOnepiecePlay } from "./assets/onepiece-play.png";
