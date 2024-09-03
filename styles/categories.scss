@@ -1,0 +1,119 @@
+.section__categories {
+    display: flex;
+    gap: 1.1rem;
+    color: white;
+    margin: auto;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 86rem;
+    z-index: 80;
+    position: relative;
+
+    .categories__box {}
+
+    a {
+        display: grid;
+        position: relative;
+        padding: 2rem 1rem;
+        box-shadow: rgba(0, 0, 0, 0.1333333333) 0 11.6px 13.6px, rgba(0, 0, 0, 0.1098039216) 0 1.3px 1.9px;
+        background: #22313f;
+        border: 1.5px solid darkgrey;
+        border-radius: 8px;
+        text-align: center;
+        justify-items: center;
+        z-index: 90;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+
+        span {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+
+    a:hover {
+        background: white;
+        color: black;
+        border: 1.5px solid black;
+
+        span {
+            border-bottom: none;
+        }
+
+    }
+}
+
+
+@media (max-width: 1420px) {
+
+    .section__categories {
+        width: auto;
+    }
+}
+
+@media (max-width: 1240px) {
+
+    .section__categories {
+        width: 64rem;
+
+        a {
+
+            span {
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1074px) {
+
+    .section__categories {
+        width: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .section__categories {}
+}
+
+@media (max-width: 870px) {
+
+    .section__categories {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 38rem;
+
+        a:nth-child(3) {
+            display: none;
+        }
+
+        a {
+            width: auto;
+
+            span {
+                font-size: 1rem;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 610px) {
+
+    .section__categories {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+         
+        a:nth-child(3) {
+            display: none;
+        }
+    }
+}
