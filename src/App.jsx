@@ -9,6 +9,8 @@ import "../styles/globals.css";
 import "../styles/hero.scss";
 import "../styles/header.scss";
 
+import "../styles/card.scss";
+
 import "../styles/categories.scss";
 
 import "../styles/anime-list.scss";

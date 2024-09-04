@@ -41,7 +41,7 @@ const animePopular = (props) => {
   return (
     <section className="section__list">
       <div className="head">
-        <h2>Popular Anime</h2>
+        <h2>Top pick's for you</h2>
         <a>See All</a>
       </div>
 

@@ -41,10 +41,11 @@ h2 {
                 border-radius: 19px;
                 overflow: hidden;
                 position: relative;
-                height: 100%;
+                height: 20rem;
 
                 .cardImg {
                     height: 100%;
+                    transition: 2s;
 
                     img {
                         height: 100%;
@@ -71,9 +72,12 @@ h2 {
                 opacity: 1;
             }
 
-            .card:hover {
-
+            .card:hover .cardImg {
+                scale: 1.1;
             }
+        }
+
+        a:hover {
         }
 
         .embla__button--left {
@@ -165,3 +169,4 @@ h2 {
 }
 
 @media (max-width: 610px) {}
+
