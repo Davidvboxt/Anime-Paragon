@@ -26,7 +26,9 @@ const animePopular = (props) => {
 
   const fetch = async () => {
     const data = await axios.get(
-      `https://api.jikan.moe/v4/top/${id ? id : "anime"}`
+      // `https://api.jikan.moe/v4/seasons/now?sfw`
+      `https://api.jikan.moe/v4/seasons/${id ? id : "now"}`
+      // `https://api.jikan.moe/v4/top/${id ? id : "anime"}`
 
     );
     setAnime(data.data.data);
