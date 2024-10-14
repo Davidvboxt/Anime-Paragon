@@ -14,6 +14,7 @@ import "../styles/card.scss";
 import "../styles/categories.scss";
 
 import "../styles/anime-list.scss";
+import "../styles/anime-highlights.scss";
 
 function App() {
   return (

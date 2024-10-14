@@ -1,0 +1,193 @@
+.section__animehighlights {
+    background: url(https://www.zmo.ai/wp-content/uploads/2023/09/powerpoint-slide-with-white-background-SB02298-min-scaled.jpg);
+    padding-top: 2rem;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    h2 {
+        display: grid;
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .reaction {
+            text-align: center;
+            align-items: center;
+
+            .reaction__block {
+                background-color: #E0E0E0;
+                border-radius: 20px;
+                width: 12rem;
+                padding: 1rem;
+                margin-bottom: 2.8rem;
+
+                h3 {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    margin-bottom: 5px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .block__1 {
+            margin-right: 6rem;
+        }
+
+        .block__2 {
+
+            img {
+                width: 17rem;
+                border-radius: 20px;
+            }
+        }
+
+        .block__3 {
+            margin-left: 6rem;
+        }
+    }
+}
+
+@media (max-width: 1124px) {
+    .section__animehighlights {
+
+        h2 {}
+
+        .content {
+
+            .reaction {
+
+                .reaction__block {}
+            }
+
+            .block__1 {
+                margin-right: 3rem;
+            }
+
+            .block__2 {}
+
+            .block__3 {
+                margin-left: 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 925px) {
+    .section__animehighlights {
+
+        h2 {}
+
+        .content {
+
+            .reaction {
+
+                .reaction__block {}
+            }
+
+            .block__1 {
+                display: none;
+            }
+
+            .block__2 {}
+
+            .block__3 {
+                margin-left: 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .section__animehighlights {
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        .content {
+
+            .reaction {
+
+                .reaction__block {}
+            }
+
+            .block__1 {
+                display: none;
+            }
+
+            .block__2 {
+
+                img {
+                    width: 14rem;
+                }
+            }
+
+            .block__3 {
+                margin-left: 3rem;
+                width: 10rem;
+
+                .reaction__block {
+                    width: 10rem;
+
+                    svg {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .section__animehighlights {
+
+        h2 {
+            margin-bottom: 2rem;
+        }
+
+        .content {
+            display: grid;
+
+            .block__1 {
+                margin-right: 2rem;
+            }
+
+            .block__2 {
+                display: grid;
+                justify-content: center;
+
+                img {
+                    width: 15rem;
+                }
+            }
+
+            .block__3 {
+                display: flex;
+                width: 100%;
+                margin-left: 0;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                margin-top: 2rem;
+
+                .reaction__block {
+                    width: 8rem;
+                }
+                .reaction__block:first-child {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
