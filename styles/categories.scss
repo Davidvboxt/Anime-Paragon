@@ -17,8 +17,6 @@
         position: relative;
         padding: 2rem 1rem;
         box-shadow: rgba(0, 0, 0, 0.1333333333) 0 11.6px 13.6px, rgba(0, 0, 0, 0.1098039216) 0 1.3px 1.9px;
-        background: #22313f;
-        border: 1.5px solid darkgrey;
         border-radius: 8px;
         text-align: center;
         justify-items: center;
@@ -26,6 +24,8 @@
         width: 100%;
         color: white;
         text-decoration: none;
+        background-color: #16385c;
+        border: 2px solid rgb(45, 116, 213);
 
         span {
             font-size: 1.5rem;
@@ -33,10 +33,22 @@
         }
     }
 
+    // a:nth-last-child(-n + 2) {
+    //     background-color: rgba(121,137,212,1);
+    // }
+
+    // a:nth-child(-n + 2) {
+    //     background-color: rgba(45,116,213,1);
+    // }
+    // a:nth-child(3) {
+    //     background: rgb(45,116,213);
+    //     background: linear-gradient(90deg, rgba(45,116,213,1) 0%, rgba(121,137,212,1) 100%);
+    // }
+
     a:hover {
         background: white;
         color: black;
-        border: 1.5px solid black;
+        border: 2px solid rgb(45, 116, 213);
 
         span {
             border-bottom: none;

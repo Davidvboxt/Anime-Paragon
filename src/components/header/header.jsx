@@ -12,10 +12,19 @@ const header = () => {
         sidebar.style.display = 'none'
     }
 
+    document.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+
+        if (window.scrollY > 0) {
+            nav.classList.add('scrolled')
+        } else {
+            nav.classList.remove('scrolled')
+        }
+    })
 
     return (
-        <header>
-            <nav className="z-[99] relative">
+        <>
+            <nav idName='mynav' className="z-[99]">
                 <div className='desktop'>
                     <a className='logo' href="/">Anime Paragon</a>
                     <ul className='ul__center'>
@@ -57,8 +66,11 @@ const header = () => {
                     <li><a href="#">Account</a></li>
                 </ul>
             </nav>
-            <Hero />
-        </header>
+            <header>
+
+                <Hero />
+            </header>
+        </>
     )
 }
 
