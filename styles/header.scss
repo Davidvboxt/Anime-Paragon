@@ -3,7 +3,7 @@ header {
 }
 
 .scrolled {
-    background-color: rgb(45, 116, 2130, .9);
+    background-color: var(--color-primary-trans);
     transition: background-color 800ms linear;
     backdrop-filter: blur(20px);
 
@@ -157,7 +157,7 @@ nav .desktop {
     }
 
     .active {
-        background: rgba(45, 116, 213, 1);
+        background: var(--color-primary);
         padding: 8px 20px 8px 20px;
         border-radius: 19px;
         font-weight: 700;

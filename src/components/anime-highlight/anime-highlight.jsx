@@ -4,6 +4,14 @@ function Animehighlights() {
     return (
         <section className='section__animehighlights'>
             <h2>ANIME OF TODAY</h2>
+            <div class="gradients-container">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="g5"></div>
+      <div class="interactive"></div>
+    </div>
             <div className='content'>
                 <div className='block__1 reaction'>
                     <div className='reaction__block'>
@@ -24,7 +32,7 @@ function Animehighlights() {
                     </div>
                 </div>
                 <div className='block__2'>
-                    <img src='https://m.media-amazon.com/images/I/71ie87aqvLL._AC_UF894,1000_QL80_.jpg' alt='Anime' />
+                    <img src='https://fr.web.img4.acsta.net/pictures/22/10/07/09/03/4457121.jpg' alt='Anime' />
                 </div>
                 <div className='block__3 reaction'>
                     <div className='reaction__block'>

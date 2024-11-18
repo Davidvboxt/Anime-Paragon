@@ -3,6 +3,7 @@ export { default as AnimePopular } from "./anime-popular/anime-popular";
 export { default as AnimeTopPicks } from "./anime-top-picks/anime-top-picks";
 export { default as Categories } from "./categories/categories";
 export { default as AnimeHighlights } from "./anime-highlight/anime-highlight";
+export { default as AnimeNew } from "./anime-new/anime-new";
 
 // HEADER
 export { default as Header } from "./header/header";
