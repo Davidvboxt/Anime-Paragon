@@ -40,7 +40,7 @@ const animeNew = (props) => {
   return (
     <section className="section__list">
       <div className="head">
-        <h2>Popular Anime</h2>
+        <h2>New Anime</h2>
         <a>See All</a>
       </div>
 
