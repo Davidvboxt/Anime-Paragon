@@ -1,11 +1,13 @@
 .section__animehighlights {
     background-image: url('../src/assets/bluelock-background.jpg');
-    padding-top: 2rem;
+    padding-top: 3rem;
     background-size: cover;
     margin-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     height: 35rem;
+
+
 
     h2 {
         display: grid;
@@ -187,6 +189,7 @@
                 .reaction__block {
                     width: 8rem;
                 }
+
                 .reaction__block:first-child {
                     margin-right: 10px;
                 }

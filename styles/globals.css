@@ -3,13 +3,15 @@
 @tailwind utilities;
 
 :root {
+    /* COLOR */
     --color-dark: #1A1A1A;
     --color-grey: #D7D7D7;
     --color-primary: rgb(32, 94, 179);
+    --color-primary-light: rgb(37, 207, 250);
     --color-primary-trans: rgb(32, 94, 179, .9);
     --color-secondary: #FFA500;
 
-
+    /* FONT */
     --border-radius-primary: 38px;
     --padding-default: 1rem;
 }
@@ -47,4 +49,5 @@ h1, h2 {
 
 p {
     margin: 0;
+    line-height: 23px;
 }

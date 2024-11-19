@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
 
 function Animehighlights() {
+    useEffect(() => {
+        const elements = document.querySelectorAll('.has-animation');
+
+        elements.forEach((element) => {
+            const delay = element.dataset.delay || 0;
+
+            setTimeout(() => {
+                element.classList.add('animate-in');
+            }, delay);
+        });
+    }, []);
+    
     return (
         <section className='section__animehighlights'>
             <h2>ANIME OF TODAY</h2>
-            <div class="gradients-container">
-      <div class="g1"></div>
-      <div class="g2"></div>
-      <div class="g3"></div>
-      <div class="g4"></div>
-      <div class="g5"></div>
-      <div class="interactive"></div>
-    </div>
             <div className='content'>
                 <div className='block__1 reaction'>
                     <div className='reaction__block'>

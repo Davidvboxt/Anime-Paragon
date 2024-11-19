@@ -7,6 +7,7 @@ import { CardDetail } from "./pages/cardDetail";
 import "../styles/globals.css";
 
 import "../styles/hero.scss";
+import "../styles/hero-onepiece.scss";
 import "../styles/header.scss";
 
 import "../styles/card.scss";
